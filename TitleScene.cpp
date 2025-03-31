@@ -10,7 +10,7 @@ TitleScene::TitleScene(GameObject* parent)
 void TitleScene::Initialize()
 {
 	spr_ = new Sprite();
-	hImage_ = spr_->Load("Assets//title_oden.png");
+	hImage_ = spr_->Load("Assets//START.PNG");
 	
 }
 
