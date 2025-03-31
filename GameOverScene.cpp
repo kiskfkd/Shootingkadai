@@ -14,7 +14,7 @@ void GameOverScene::Initialize()
 
 void GameOverScene::Update()
 {
-	if (Input::IsKeyUp(DIK_P)) {
+	if (Input::IsKeyUp(DIK_SPACE)) {
 		SceneManager* ps = (SceneManager*)FindObject("SceneManager");
 		ps->ChangeScene(SCENE_ID_TITLE);
 	}
